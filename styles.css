@@ -1,0 +1,105 @@
+@import url('https://googleapis.com');
+body {
+  padding: 50px 20px; /* Reduced from 130px */
+  background: hsl(336, 40%, 96%);
+  display: flex;
+  justify-content: center; /* Centers the card horizontally */
+  font-family: 'Outfit', sans-serif;
+}
+
+body > div {
+  background: hsl(0, 0%, 100%);
+  padding: 40px;
+  border-radius: 24px;
+  max-width: 736px;
+}
+
+
+h2, .nbold{
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+  font-family: 'Young seriff';
+}
+
+body div{
+  background: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 7px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+hr{
+  border: 0;
+  border-top: 1px solid hsl(30, 54%, 90%);
+}
+
+.bold{
+  color: hsl(24, 5%, 18%);
+  font-weight: 700;
+  font-family: 'Outfit';
+}
+
+.prep-time{
+  padding: 14px;
+  background-color: hsl(330, 100%, 98%);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 10px;
+  width: 100%;
+}
+
+table tr{
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+  
+}
+
+p, li{
+  font-size: 16px;
+}
+li{
+  color: hsl(30, 10%, 34%);
+  line-height: 32px;
+}
+
+.prep-time p{
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    body div {
+    padding: 20px;
+    border-radius: 0;
+    overflow: hidden;
+  }
+
+  img {
+    width: calc(100% + 40px); 
+    margin-left: -20px; 
+    margin-top: -20px; 
+    margin-bottom: 20px;  
+    max-width: none; 
+    border-radius: 0;  
+  }
+}
+  body div {
+    padding: 15px;
+    border-radius: 0;
+  }
+
+  .prep-time {
+    margin: 10px 0;
+  }
+}
+table tr:last-child {
+  border-bottom: none;
+}
